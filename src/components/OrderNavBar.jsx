@@ -11,7 +11,7 @@ const OrderNavBar = ({ menuItems, onNavigate, setSearchTerm}) => {
     return (
             <div className='bg-teal-900 flex items-center justify-center font-poppins top-0'>
                 <nav className='w-full sm:w-[95%] md:w-[80%] lg:w-[40%] flex flex-col items-center justify-center pt-8 sm:pt-10 z-9 text-teal-600 bg-teal-950'>
-                    <div className='flex items-center justify-between gap-20 sm:gap-10 z-9 text-teal-600 bg-teal-950'>
+                    <div className='flex items-center justify-between gap-8 sm:gap-2 lg:gap-15 z-9 text-teal-600 bg-teal-950'>
                         <Link to="/">
                             <span className='text-2xl cursor-pointer' ><FaArrowLeftLong /></span>
                         </Link>

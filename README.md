@@ -12,7 +12,20 @@ A modern, responsive, and interactive restaurant website built using **React**, 
 
 ## 📸 Preview
 
-![Screenshot](./screenshot.png)
+![Home page screenshot](raw.githubysercontent.com/osazuwamatthewogbebor/restaurant-menu/main/screenshots/home_screenshot.PNG)
+
+
+![Form screenshot](raw.githubysercontent.com/osazuwamatthewogbebor/restaurant-menu/main/screenshots/form_scrshot.PNG)
+
+
+![Navbar screenshot](raw.githubysercontent.com/osazuwamatthewogbebor/restaurant-menu/main/screenshots/navbar_scrshot.PNG)
+
+
+![Drink page screenshot](raw.githubysercontent.com/osazuwamatthewogbebor/restaurant-menu/main/screenshots/drink_scrnshot.PNG)
+
+
+![Food page screenshot](raw.githubysercontent.com/osazuwamatthewogbebor/restaurant-menu/main/screenshots/food_scrnshot.PNG)
+
 
 ---
 
