@@ -51,7 +51,7 @@ const HomeMenu = () => {
     return (
         <div className='bg-teal-900 flex z-[-2] items-center justify-center text-white font-poppins'>
             <div className='w-full flex flex-col items-center justify-center md:w-[80%] lg:w-[40%]' >
-                <div className={`w-full h-screen md:min-h-screen lg:h-full grid grid-cols-2 py-7 bg-teal-950`} style={{backgroundImage: `url(${MainBg})`, }}>
+                <div className={`w-full h-screen overflow-y-auto md:min-h-screen lg:h-full grid grid-cols-2 py-7 bg-teal-950`} style={{backgroundImage: `url(${MainBg})`, }}>
                     {
                         menuItems.map((item, index) => (
                         <Link to={item.link}>
