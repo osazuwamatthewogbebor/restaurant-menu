@@ -30,7 +30,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='bg-teal-900 flex justify-center items-center font-poppins'>
+        <div className='bg-teal-900 flex justify-center overflow-y-auto items-center font-poppins'>
             <div className='w-full md:w-[80%] lg:w-[40%] top-0' >
                 <nav className=' flex items-center py-8 sm:py-10 px-10 sm:px-15 gap-10 sm:gap-15 font-bold z-9 text-teal-600 bg-teal-950' >
                     <span className='text-2xl sm:text-3xl cursor-pointer' onClick={toggleMenuIcon}><RiMenu5Fill /></span>
