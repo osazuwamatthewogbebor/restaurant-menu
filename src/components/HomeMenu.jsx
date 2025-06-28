@@ -51,14 +51,14 @@ const HomeMenu = () => {
     return (
         <div className='bg-teal-900 flex z-[-2] items-center justify-center text-white font-poppins'>
             <div className='w-full flex flex-col items-center justify-center md:w-[80%] lg:w-[40%]' >
-                <div className={`w-full h-screen md:h-full grid grid-cols-2 py-7 bg-teal-950`} style={{backgroundImage: `url(${MainBg})`, }}>
+                <div className={`w-full h-screen lg:h-full grid grid-cols-2 py-7 bg-teal-950`} style={{backgroundImage: `url(${MainBg})`, }}>
                     {
                         menuItems.map((item, index) => (
                         <Link to={item.link}>
                             <div key={index} className='flex flex-col justify-center items-center 
                             gap-5 sm:gap-10 md:gap-5 lg:gap-8 px-10' onClick={item.action}>
                                 <li className='list-none cursor-pointer flex flex-col justify-center items-center text-8xl font-bold text-teal-600'>
-                                <span className='z-4'>{item.icon}</span> <img src={IconBg} className='mt-[-110px] sm:mt-[-150px] md:mt-[-130px] lg:mt-[-110px] w-45 sm:w-55 md:w-45 lg:w-35'/></li>
+                                <span className='z-4'>{item.icon}</span> <img src={IconBg} className='mt-[-100px] sm:mt-[-150px] md:mt-[-130px] lg:mt-[-110px] w-55 sm:w-55 md:w-45 lg:w-35'/></li>
                                 <p className='text-lg md:text-2xl lg:text-xl cursor-pointer font-semibold mb-15 sm:mb-20 md:mb-35 lg:mb-15'>{item.text}</p>
                             </div>
                             
